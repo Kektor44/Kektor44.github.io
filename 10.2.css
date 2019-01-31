@@ -10,6 +10,7 @@ body {
     height: 100%;
     background-image: url("https://www.natgeojunior.nl/wp-content/uploads/2017/07/pinguin3.jpg");
     z-index: -1;
+    background-size: cover;
 }
 #ded {
     width: 13%;
