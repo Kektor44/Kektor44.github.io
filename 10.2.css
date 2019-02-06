@@ -1,0 +1,116 @@
+body {
+    background-color: #ECF9F9;
+
+}
+#main {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    background-image: url("https://www.natgeojunior.nl/wp-content/uploads/2017/07/pinguin3.jpg");
+    z-index: -1;
+    background-size: cover;
+}
+#ded {
+    width: 13%;
+    position: relative;
+    left: 40% ;
+    top: 40%;
+}
+#ded:hover {
+    cursor: pointer;
+}
+#clickme {
+    position: absolute;
+    top: 80px;
+}
+#unclick {
+    position: absolute;
+    top: 100px;
+}
+#persent {
+    position: absolute;
+    top: 140px;
+}
+#score {
+    position: absolute;
+    top: 160px;
+}
+#commonScore {
+    position: absolute;
+    top: 440px;
+}
+#head {
+    position: absolute;
+    top:340px;
+}
+#hover {
+    position: absolute;
+    top: 120px;
+}
+
+#nameButtons {
+
+    border-radius:0 0 40px 40px;
+    text-align: center;
+    transition: height 0.5s;
+    overflow: hidden;
+    font-size: 18px;
+    height: 42px;
+    width: 250px;
+}
+#nameButtons:hover {
+    height: 104%;
+}
+a button {
+    width: 90%;
+    border-radius: 20px;
+    font-size: 22px;
+    position: relative;
+    left: 2px;
+    background:linear-gradient( lightskyblue , #ECF9F9);
+    transition: 0.3s;
+
+}
+button:hover {
+    background: white;
+}
+#fonButtons {
+    width: 250px;
+    border-radius:0 0 40px 40px;
+    text-align: center;
+    transition: height 0.5s;
+    overflow: hidden;
+    font-size: 18px;
+    height: 42px;
+}
+#fonButtons:hover {
+    height: 350px;
+}
+#rules {
+    height: 42px;
+    width: 25%;
+    border-radius: 0 0 40px 40px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: height 0.5s, width 0.5s;
+
+}
+#rules:hover {
+    height: 100%;
+    width: 54%;
+}
+ul li a{
+    position: relative;
+    top: -15px;
+    background-color: rgba(241, 244, 253, 0.8);
+}
+#header {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(241, 244, 253, 1);
+    z-index: 11;
+
+    position: absolute;
+    top: 0;}
