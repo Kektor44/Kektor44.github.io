@@ -1,0 +1,157 @@
+
+.menu__item {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size:20px;
+
+}
+.header {
+    background-image: url("http://icupertino.ru/wp-content/uploads/0oNLfKn-Imgur.jpg");
+    background-size: cover;
+    color: white;
+    height: 100%;
+    transform: translateY(-10%);
+    padding:30px 0;
+    text-shadow: 1px 1px 20px #000;
+}
+.form__input {
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    background: #fff;
+    width: 180px;
+    height: 36px;
+    padding-bottom: 2px;
+}
+.form__btn {
+    vertical-align: middle;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+
+}
+.form {
+    margin-top: 10px;
+}
+.menu__item a{
+    color: white;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.menu__item a:hover{
+    color: orange;
+}
+.title {
+    text-align: center;
+    padding-top: 40px;
+}
+.title__text {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.title p{
+    font-size: 19px;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+}
+.icons__text {
+   width: 80%;
+    margin-left: 20px;
+}
+.icons__text p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 15px;
+    width: 80%;
+
+}
+.features {
+    padding-bottom: 40px;
+}
+
+
+.carousel-inner {
+    height: 500px;
+}
+.carousel-inner img{
+    transform: translateY(-30%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.footer {
+    background: #000;
+}
+.footer__text{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.footer__text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.beforefooter {
+    background: #000;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.beforefooter h2{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .menu__item {
+        margin-right: 24px;
+    }
+    .title__text {
+        width: 90%;
+
+    }
+
+}
+@media screen and (max-width: 767px){
+.menu__item {
+    font-size: 24px;
+    font-weight: 900;
+}
+    .form__input{
+        width: 420px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .form__btn{
+        width: 25%;
+
+    }
+    .form__input{
+        width: 73%
+    }
+    .menu__item {
+        font-size: 15px;
+        margin-right: 8px;
+        width: 80%;
+    }
+
+}
+
